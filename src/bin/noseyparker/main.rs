@@ -66,6 +66,7 @@ fn try_main() -> Result<()> {
 }
 
 fn main() {
+    println!("Hi mom!");
     if let Err(e) = try_main() {
         eprintln!("Error: {:?}", e);
         std::process::exit(2);
